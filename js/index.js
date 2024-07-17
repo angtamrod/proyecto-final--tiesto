@@ -12,9 +12,9 @@ const headerPrincipal = document.querySelector(".header__principal");
 
 //Constantes para hacer que las imágenes de inicio se cambien solas
 const imagenes = [
-    "url(/imgs/photos/bg_imgs/foto_jardin.jpg)",
-    "url(/imgs/photos/bg_imgs/foto_invernadero.jpg)",
-    "url(/imgs/photos/bg_imgs/foto_regaderas.jpg)"
+    "url(./imgs/photos/bg_imgs/foto_jardin.jpg)",
+    "url(./imgs/photos/bg_imgs/foto_invernadero.jpg)",
+    "url(./imgs/photos/bg_imgs/foto_regaderas.jpg)"
 ];
 const cajaPresentacion = document.querySelector(".presentacion");
 
