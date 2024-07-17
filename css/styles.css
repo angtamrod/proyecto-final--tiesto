@@ -940,7 +940,7 @@ body {
 }
 
 .pago__section{
-    background-image: url(/imgs/photos/bg_imgs/fondo_carrito.webp);
+    background-image: url(./imgs/photos/bg_imgs/fondo_carrito.webp);
     width: 100%;
     height: 100%;
     display: flex;
@@ -1554,8 +1554,8 @@ body {
 
 
         .presentacion__texto {
-            font-size: 1.5rem;
-            padding: 1rem;
+            font-size: 16px;
+            padding: 8px;
         }
     
         .informacion{
