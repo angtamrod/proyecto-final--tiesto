@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tienda de plantas">
+    <meta name="keywords" content="plantas, vida, alegria, verde">
+    <meta name="language" content="Spanish">
+    <title>Alocasia Polly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/producto.js"></script>
+</head>
+<body>
+    <header class="header">
+           <div class="header__principal">
+               <div class="header__menu"><img class="header__icon header__icon--menu" src="./imgs/icons/barras_menu_verde.png" alt=""></div>
+               <div class="header__logo">
+                   <a href="index.html"><img class="header__img" src="./imgs/logos/fondo_beige_grande.png" alt="logo"></a>   
+               </div>
+               <div class="header__carrito">
+                   <a href="carrito.html"><img class="header__icon" src="imgs/icons/cesta__verde.png" alt="cesta_carrito"></a>  
+               </div>
+           </div>
+           <nav class="nav">
+               <ul class="nav__ul">
+                   <li class="nav__li"><a class="nav__a" href="index.html">Home</a></li>
+                   <li class="nav__li"><a class="nav__a" href="catalogo.html">Plantas</a></li>
+                   <li class="nav__li"><a class="nav__a" href="sobremi.html">Conócenos</a></li> 
+               </ul> 
+           </nav>
+   </header>
+   <main class="main main--producto" >
+    
+        <section class="producto" data-id="1" data-name="Alocasia Polly" data-price="4" data-img="./imgs/photos/productos/alocasia_polly_final.webp">
+            <div class="producto__photo">
+                <img class="producto__img" src="./imgs/photos/productos/alocasia_polly_final.webp" alt="alocasia polly">
+            </div>
+            <div class="producto__content">
+                <div class="producto__info">
+                    <div class="producto__div">
+                        <h1 class="producto__h1">Alocasia Polly</h1>
+                        <span class="producto__span">4€</span>
+                    </div>
+                    <div class="producto__botones">
+                        <button title="Añadir a carrito" type="button" class="producto__button producto__button--carrito">Agregar al carrito</button>
+                        <button title="Boton pago" type="button" class="producto__button producto__button--pago">Comprar</button>
+                </div>
+                </div>
+                <div class="producto__texto">
+                    <h3 class="producto__h3">Cuidados</h3>
+                    <ul class="producto__ul">
+                        <li class="producto__li"><strong class="producto__strong">Temperatura</strong><br>La ideal sería entre los 15-30°C, no debe de bajar de los 15°C.</li>
+                        <li class="producto__li"><strong class="producto__strong">Luz</strong><br>Mucha luminosidad, pero no debe recibir sol directo</li>
+                        <li class="producto__li"><strong class="producto__strong">Riego Moderado</strong><br>Sustrato permanentemente húmedo, pero ¡Ojo! Cuidado siempre de los encharcamientos. La mejor manera de saber cuándo es momento de volver a regar es tocando el sustrato. Si la superficie está ligeramente seca, es momento de volver a humedecer.</li>
+                        <li class="producto__li"><strong class="producto__strong">Humedad</strong><br>Recomendable pulverizar regularmente sus hojas con agua para mantener la humedad.</li>
+                        <li class="producto__li"><strong class="producto__strong">Abono</strong><br>Para favorecer su crecimiento y felicidad de las hojas, utiliza sustrato ecológico con un buen drenaje. Si lo necesitas nosotros tenemos una mezcla perfecta para ello.</li>
+                    </ul>
+                </div>
+            </div>
+
+       </section>
+       <button title="ir arriba" class="scroll"><i class="fa-solid fa-arrow-up"></i></button>
+    </main>
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__icon">
+                <a href="" class="footer__logo"><img loading="lazy" class="footer__img" src="./imgs/logos/logo_footer_final.png" alt="footer logo"></a>
+            </div>
+            
+            <div class="footer__enlaces">
+                <div class="footer__container">
+                    <h3 class="footer__h3">Enlaces de interes</h3>
+                    <ul class="footer__links">
+                        <li class="footer__li"><a class="footer__a" href="catalogo.html">Catálogo</a></li>
+                        <li class="footer__li"><a class="footer__a" href="sobremi.html">Conócenos</a></li>
+                        <li class="footer__li"><a class="footer__a" href="t&c.html">Términos y Condiciones</a></li>  
+                    </ul>
+                </div> 
+                <div class="rrss">
+                    <a class="rrss__icon" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="rrss__icon" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="rrss__icon" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="rrss__icon" href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                </div>     
+            </div>
+        </div>  
+        <p class="footer__p">&copy; 2024 Tiesto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

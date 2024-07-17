@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tienda de plantas">
+    <meta name="keywords" content="plantas, vida, alegria, verde">
+    <meta name="language" content="Spanish">
+    <title>Plantas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/catalogo.js"></script>
+</head>
+
+<body>
+    <header class="header">
+           <div class="header__principal">
+               <div class="header__menu"><img class="header__icon header__icon--menu" src="./imgs/icons/barras_menu_verde.png" alt=""></div>
+               <div class="header__logo">
+                   <a href="index.html"><img class="header__img" src="./imgs/logos/fondo_beige_grande.png" alt="logo"></a>   
+               </div>
+               <div class="header__carrito">
+                   <a href="carrito.html"><img class="header__icon" src="imgs/icons/cesta__verde.png" alt="cesta_carrito"></a>  
+               </div>
+           </div>
+           <nav class="nav">
+               <ul class="nav__ul">
+                   <li class="nav__li"><a class="nav__a" href="index.html">Home</a></li>
+                   <li class="nav__li"><a class="nav__a" href="catalogo.html">Plantas</a></li>
+                   <li class="nav__li"><a class="nav__a" href="sobremi.html">Conócenos</a></li> 
+               </ul> 
+           </nav>
+   </header>
+
+    <main class="catalogo">
+        <h1 class="catalogo__h1">~ Nuestras Plantas ~</h1>
+        <p class="catalogo__p">En nuestra pequeña tienda online, cada planta cuenta una historia de frescura y belleza. Nuestro catálogo, aunque reducido, ha sido cuidadosamente seleccionado para ofrecerte solo lo mejor. Aquí encontrarás una exclusiva colección de plantas que traerán vida y alegría a tu hogar.</p>
+        <section class="catalogo__content">
+            <div class="card" data-id="1" data-name="Alocasia Polly" data-price="4" data-img="./imgs/photos/productos/alocasia_polly_final.webp">
+                <div class="card__foto">
+                    <a href="alocasia.html"><img class="card__img" src="./imgs/photos/productos/alocasia_polly_final.webp" alt="alocasia polly"></a>
+                </div>
+                <div class="card__content">
+                    <div class="card__texto">
+                    <a class="card__link" href="alocasia.html"><h3 class="card__h3">Alocasia Polly</h3></a>
+                    <p class="card__span">4€</p>
+                    </div> 
+                    <button title="Añadir a carrito" type="button" class="card__button">Añadir al carrito</button>   
+                </div>
+            </div>
+
+            <div class="card" data-id="2" data-name="Aloe Danyz" data-price="6" data-img="./imgs/photos/productos/aloe_danyz.webp">
+                <div class="card__foto">
+                    <a href="aloe.html"><img class="card__img" src="./imgs/photos/productos/aloe_danyz.webp" alt="aloe danyz"></a>
+                </div>
+                <div class="card__content">
+                    <div class="card__texto">
+                    <a href="aloe.html" class="card__link"><h3 class="card__h3">Aloe Danyz</h3></a>
+                    <p class="card__span">6€</p>
+                    </div> 
+                    <button title="Añadir a carrito" type="button" class="card__button">Añadir al carrito</button>   
+                </div>
+            </div>
+
+            <div class="card" data-id="3" data-name="Calathea Ornata" data-price="17" data-img="./imgs/photos/productos/calathea_ornata.webp">
+                <div class="card__foto">
+                    <a href="calathea.html"><img class="card__img" src="./imgs/photos/productos/calathea_ornata.webp" alt="calathea ornata"></a>
+                </div>
+                <div class="card__content">
+                    <div class="card__texto">
+                    <a href="calathea.html" class="card__link"><h3 class="card__h3">Calathea Ornata</h3></a>
+                    <span class="card__span">17€</span>
+                    </div> 
+                    <button title="Añadir a carrito" type="button" class="card__button">Añadir al carrito</button>   
+                </div>
+            </div>
+
+            <div class="card" data-id="4" data-name="Maranta Leuconera" data-price="8" data-img="./imgs/photos/productos/maranta_leuconera_red_stripe.webp">
+                <div class="card__foto">
+                    <a href="maranta.html"><img loading="lazy" class="card__img" src="./imgs/photos/productos/maranta_leuconera_red_stripe.webp" alt="maranta Leuconera"></a>
+                </div>
+                <div class="card__content">
+                    <div class="card__texto">
+                    <a href="maranta.html" class="card__link"><h3 class="card__h3">Maranta Leuconera</h3></a>
+                    <span class="card__span">8€</span>
+                    </div> 
+                    <button title="Añadir a carrito" type="button" class="card__button">Añadir al carrito</button>   
+                </div>
+            </div>
+
+            <div class="card" data-id="5" data-name="Monstera Deliciosa" data-price="25" data-img="./imgs/photos/productos/monstera__deliciosa.webp">
+                <div class="card__foto">
+                    <a href="monstera.html"><img loading="lazy" class="card__img" src="./imgs/photos/productos/monstera__deliciosa.webp" alt="monstera deliciosa"></a>
+                </div>
+                <div class="card__content">
+                    <div class="card__texto">
+                    <a href="monstera.html" class="card__link"><h3 class="card__h3">Monstera Deliciosa</h3></a>
+                    <span class="card__span">25€</span>
+                    </div> 
+                    <button title="Añadir a carrito" type="button" class="card__button">Añadir al carrito</button>   
+                </div>
+            </div>
+
+            <div class="card" data-id="6" data-name="Philodendron Mamei" data-price="23" data-img="./imgs/photos/productos/philodendron_mamei.webp">
+                <div class="card__foto">
+                    <a href="philodendron.html"><img loading="lazy" class="card__img" src="./imgs/photos/productos/philodendron_mamei.webp" alt="philodendron_mamei"></a>
+                </div>
+                <div class="card__content">
+                    <div class="card__texto">
+                    <a href="philodendron.html" class="card__link"><h3 class="card__h3">Philodendron Mamei</h3></a>
+                    <span class="card__span">23€</span>
+                    </div> 
+                    <button title="Añadir a carrito" type="button" class="card__button">Añadir al carrito</button>   
+                </div>
+            </div>
+
+        </section>
+        <button title="ir arriba" class="scroll"><i class="fa-solid fa-arrow-up"></i></button>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__icon">
+                <a href="" class="footer__logo"><img loading="lazy" class="footer__img" src="./imgs/logos/logo_footer_final.png" alt="footer logo"></a>
+            </div>
+            
+            <div class="footer__enlaces">
+                <div class="footer__container">
+                    <h3 class="footer__h3">Enlaces de interes</h3>
+                    <ul class="footer__links">
+                        <li class="footer__li"><a class="footer__a" href="catalogo.html">Catálogo</a></li>
+                        <li class="footer__li"><a class="footer__a" href="sobremi.html">Conócenos</a></li>
+                        <li class="footer__li"><a class="footer__a" href="sobremi.html">Términos y Condiciones</a></li>  
+                    </ul>
+                </div> 
+                <div class="rrss">
+                    <a class="rrss__icon" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="rrss__icon" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="rrss__icon" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="rrss__icon" href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                </div>     
+            </div>
+        </div>  
+        <p class="footer__p">&copy; 2024 Tiesto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
