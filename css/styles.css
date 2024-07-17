@@ -321,7 +321,7 @@ body {
     display: flex;
     /* background-image: url(./imgs/photos/bg_imgs/fondo_carrito.webp);  */
     background-position: center;
-    /* transition: background-image 1.5s ease-in-out;  */
+    transition: background-image 1s ease-in-out; 
     justify-content: center;
     align-items: center;
     gap: 1.25rem;
