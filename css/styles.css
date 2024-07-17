@@ -1514,12 +1514,17 @@ body {
         }
         .footer__container{
             padding: 0;
+            justify-content: center;
+            align-items: center;
         }
 
         .footer__links{
-
+            justify-content: center;
             align-items: center;
+            width: 150px;
+            text-align: center;
         }
+
 
         .footer__h3{
             text-align: center;
@@ -1549,13 +1554,13 @@ body {
             background-size: cover;
             background-position: center;
             height: 100vh;
-            padding: 2rem 0;
+            padding: 32px 0;
         }
 
 
         .presentacion__texto {
-            font-size: 20px;
-            padding: 2px;
+            font-size: 50px;
+            padding: 10px;
         }
     
         .informacion{
@@ -1564,8 +1569,8 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 1rem;
-            gap: 1rem;
+            padding: 16px;
+            gap: 16px;
 
         }
 
@@ -1573,7 +1578,7 @@ body {
         .informacion__caja{
 
             width: 90%;
-            margin-bottom: 1rem;
+            margin-bottom: 16px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1597,7 +1602,7 @@ body {
 
         .informacion__p{
 
-            font-size: 1rem;
+            font-size: 16px;
  
 
         }
@@ -1620,7 +1625,7 @@ body {
 
         .comentarios__boton {
 
-            padding: 1rem;
+            padding: 16px;
             top: auto;
             
         }
@@ -1634,7 +1639,7 @@ body {
         .exitos__contenedor {
 
             flex-direction: column;
-            gap: 1.5rem;
+            gap: 24px;
 
         }
 
@@ -1653,17 +1658,17 @@ body {
 
        }
         .catalogo__h1{
-            font-size: 2.5rem;
+            font-size: 40px;
         }
 
         .catalogo__p{
             width: 90%;
-            font-size: 1.2rem;
+            font-size: 19.2px;
         }
 
         .catalogo__content{
             grid-template-columns: 1fr;
-            gap: 1rem;
+            gap: 16px;
         }
 
         .card{
@@ -1740,40 +1745,40 @@ body {
         
         .producto__content{
             width: 100%; 
-            gap: 1.5rem;
+            gap: 24px;
         }
         
 
         .producto__h1{
-            font-size: 2rem; 
+            font-size: 32px; 
         }
 
 
         .producto__span{
 
-            font-size: 1.5rem; 
+            font-size: 24px; 
         }
 
 
         .producto__h3{
 
-            font-size: 1.5rem; 
+            font-size: 24px; 
         }
 
         .producto__ul{
-            padding: 0.5rem; 
+            padding: 8px; 
         }
 
         .producto__button{
             width: 100%; 
-            padding: 0.75rem; 
+            padding: 12px; 
         }
 
 
         /*Confirmacion*/
 
         .confirmacion__h1{
-            font-size: 2.5rem;
+            font-size: 40px;
             text-align: center;
         }
     
@@ -1783,14 +1788,14 @@ body {
     
         .confirmacion__p{
             width: 90%;
-            font-size: 1.2rem;
+            font-size: 19.2px;
             text-align: center;
         }
     
         .confirmacion__texto{
             width: 100%;
             flex-direction: column;
-            gap: 1rem;
+            gap: 16px;
         }
     
         .confirmacion__photo{
@@ -1800,8 +1805,8 @@ body {
     
         .confirmacion__contenedor{
             width: 100%;
-            padding: 1rem;
-            gap: 1rem;
+            padding: 16px;
+            gap: 16px;
         }
     
         .confirmacion__div{
@@ -1817,15 +1822,15 @@ body {
         }
     
         .conocenos__h1{
-            font-size: 2.5rem;
+            font-size: 40px;
             text-align: center;
         }
     
         .conocenos__contenido{
             flex-direction: column;
             align-items: center;
-            gap: 1.5rem;
-            padding: 1rem;
+            gap: 24px;
+            padding: 16px;
         }
     
         .conocenos__photo{
@@ -1834,7 +1839,7 @@ body {
     
         .conocenos__texto{
             width: 90%;
-            font-size: 1rem;
+            font-size: 16px;
             text-align: center;
         }
 
@@ -1845,27 +1850,28 @@ body {
         .pago__form{
 
             width: 85%;
-            padding: 2rem;
+            padding: 32px;
+            border-radius: 30px;
         }
     
         .pago__h1{
 
-            font-size: 2.5rem;
+            font-size: 40px;
         }
     
         .pago__div{
 
             width: 100%;
-            gap: 0.75rem;
+            gap: 12px;
         }
     
         .pago__h3{
-            font-size: 1.5rem;
+            font-size: 24px;
         }
     
         .pago__input{
 
-            padding: 0.75rem;
+            padding: 12px;
         }
     
         .pago__boton{
@@ -1877,17 +1883,17 @@ body {
         /*Tyc*/
 
         .tyc__h1{
-            font-size: 2rem;
+            font-size: 32px;
         }
     
         .tyc__caja{
             width: 90%;
-            padding: 1rem;
+            padding: 16px;
         }
     
         .tyc__button{
             width: 80%;
-            padding: 0.75rem;
+            padding: 12px;
         }
     }
     
@@ -1930,14 +1936,14 @@ body {
        /*Index*/
 
         .main--index{
-            gap: 5rem;
+            gap: 80px;
         }
         .presentacion{
             background-position: center;
         }
         .presentacion__texto {
-            font-size: 3.2rem;
-            padding: 2rem;
+            font-size: 51.2px;
+            padding: 32px;
         }
         .informacion{
             height: auto;
@@ -1969,13 +1975,13 @@ body {
 
         .informacion__h3{
             align-self: center;
-            font-size: 2rem;
+            font-size: 32px;
             
 
         }
 
         .informacion__p{
-            font-size: 1.5rem;
+            font-size: 24px;
             text-align: justify;
 
 
@@ -1988,7 +1994,7 @@ body {
 
         .exitos__contenedor{
             flex-direction: row;
-            gap: 2.5rem;
+            gap: 40px;
 
         }
 
@@ -2000,19 +2006,19 @@ body {
 
         .catalogo__h1{
 
-            font-size: 3rem;
+            font-size: 48px;
         }
     
         .catalogo__p{
 
             width: 80%;
-            font-size: 1.5rem;
+            font-size: 24px;
         }
     
         .catalogo__content{
 
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
+            gap: 24px;
         }
     
         .card{
@@ -2022,7 +2028,7 @@ body {
 
         .card__content{
             flex-direction: column;
-            gap: 1rem;
+            gap: 16px;
         }
         .card__texto{
             font-size: 20px;
@@ -2031,7 +2037,7 @@ body {
         .card__button{
             width: 100%;
             height: auto;
-            font-size: rem;
+            font-size: 16px;
             
         }
         /*Carrito*/
@@ -2041,7 +2047,7 @@ body {
         }
 
         .carrito__div{
-            padding: 2rem;
+            padding: 32px;
         }
 
         .carrito__producto{
@@ -2053,17 +2059,17 @@ body {
 
         .carrito__botones{
             flex-direction: row;
-            gap: 2rem;
+            gap: 32px;
         }
 
         .carrito__finalizar{
             width: 45%;
-            padding: 1rem;
+            padding: 16px;
         }
         
         .carrito__vaciar{
             width: 45%;
-            padding: 1rem;
+            padding: 16px;
         }
 
         /*Producto*/
@@ -2081,37 +2087,37 @@ body {
         .producto__content{
             flex-direction: row;
             width: 100%;
-            gap: 2rem;
+            gap: 32px;
         }
 
         .producto__h1{
-            font-size: 2.25rem; 
+            font-size: 36px; 
         }
 
         .producto__span{
 
-            font-size: 1.75rem; 
+            font-size: 28px; 
         }
 
         .producto__h3{
-            font-size: 1.75rem; 
+            font-size: 28px; 
         }
 
         .producto__ul{
-            padding: 1rem; 
+            padding: 16px; 
         }
 
         .producto__button{
 
             width: 45%; 
-            padding: 0.75rem; 
+            padding: 12px; 
         }
 
         /*Confirmacion*/
 
         .confirmacion__h1{
 
-            font-size: 3rem;
+            font-size: 48px;
         }
     
         .confirmacion__info{
@@ -2122,14 +2128,14 @@ body {
         .confirmacion__p{
 
             width: 70%;
-            font-size: 1.5rem;
+            font-size: 24px;
         }
     
         .confirmacion__texto{
 
             width: 100%;
             flex-direction: row;
-            gap: 2rem;
+            gap: 32px;
         }
     
         .confirmacion__photo{
@@ -2139,8 +2145,8 @@ body {
     
         .confirmacion__contenedor{
             width: 90%;
-            padding: 1.5rem;
-            gap: 1.5rem;
+            padding: 24px;
+            gap: 24px;
         }
     
         .confirmacion__div{
@@ -2149,26 +2155,26 @@ body {
     
         .confirmacion__producto{
 
-            font-size: 1.75rem;
-            padding: 1rem;
+            font-size: 28px;
+            padding: 16px;
         }
     
         .confirmacion__span{
 
             width: auto;
-            font-size: 1.75rem;
-            padding: 0.75rem;
+            font-size: 28px;
+            padding: 12px;
         }
         .confirmacion__span--total{
             width: auto;
-            font-size: 1.75rem;
-            padding: 0.75rem;
+            font-size: 28px;
+            padding: 12px;
             
         }
     
         .confirmacion__button{
             width: 75%;
-            padding: 1rem;
+            padding: 16px;
         }
 
         /*SobreMi*/
@@ -2178,14 +2184,14 @@ body {
         }
     
         .conocenos__h1{
-            font-size: 3rem;
+            font-size: 48px;
         }
     
         .conocenos__contenido{
             flex-direction: row;
             align-items: center;
-            gap: 2rem;
-            padding: 1.5rem;
+            gap: 32px;
+            padding: 24px;
         }
     
         .conocenos__photo{
@@ -2194,7 +2200,7 @@ body {
     
         .conocenos__texto{
             width: 70%;
-            font-size: 1.1rem;
+            font-size: 17.6px;
         }
 
         /*Pago*/
@@ -2202,12 +2208,12 @@ body {
         .pago__form{
 
             width: 70%;
-            padding: 1.5rem;
+            padding: 24px;
         }
     
         .pago__h1{
 
-            font-size: 3rem;
+            font-size: 48px;
         }
     
         .pago__div{
@@ -2217,7 +2223,7 @@ body {
     
         .pago__h3 {
 
-            font-size: 1.75rem;
+            font-size: 28px;
         }
     
         .pago__boton {
@@ -2227,17 +2233,17 @@ body {
 
         /*TyC*/
         .tyc__h1 {
-            font-size: 2.5rem;
+            font-size: 40px;
         }
     
         .tyc__caja {
             width: 85%;
-            padding: 1.5rem;
+            padding: 24px;
         }
     
         .tyc__button {
             width: 60%;
-            padding: 0.75rem;
+            padding: 12px;
         }
     }
     
@@ -2245,12 +2251,12 @@ body {
     @media (min-width: 1920px) {
         
         body{
-            font-size: 1.2rem;
+            font-size: 19.2px;
         }
     
         /* Header */
         .header__principal{
-            gap: 15rem;
+            gap: 240px;
         }
 
         .header__img{
@@ -2276,8 +2282,8 @@ body {
 
         .presentacion__texto{
 
-            font-size: 7rem;
-            padding: 3.5rem;
+            font-size: 112px;
+            padding: 56px;
         }
     
         /* Informacion */
@@ -2285,7 +2291,7 @@ body {
             width: 30%;
         }
         .informacion__p{
-            font-size: 1.5rem;
+            font-size: 24px;
             text-align: justify;
         }
     
@@ -2295,7 +2301,7 @@ body {
         }
 
         .comentarios__boton{
-            padding: 3rem;
+            padding: 48px;
         }
 
         .comentarios__boton--anterior{
@@ -2307,10 +2313,10 @@ body {
     
         /* Exitos */
         .exitos__h3{
-            font-size: 5rem;
+            font-size: 80px;
         }
         .exitos__contenedor{
-            gap: 4rem;
+            gap: 64px;
         }
         .tarjeta{
             width: 30%;
@@ -2318,17 +2324,17 @@ body {
     
         /* Catalogo */
         .catalogo__h1{
-            font-size: 4.5rem;
+            font-size: 72px;
         }
 
         .catalogo__p{
             width: 70%;
-            font-size: 2rem;
+            font-size: 32px;
         }
 
         .catalogo__content{
             grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-            gap: 2rem;
+            gap: 32px;
             padding: 20px;
         }
         .card{
@@ -2343,25 +2349,25 @@ body {
         }
 
         .carrito__div{
-            padding: 3rem;
+            padding: 48px;
         }
 
         .carrito__producto{
-            font-size: 2.5rem;
+            font-size: 40px;
         }
 
         .carrito__botones{
-            gap: 4rem;
+            gap: 64px;
         }
 
         .carrito__finalizar{
             width: 45%;
-            padding: 1.5rem;
+            padding: 24px;
 
         }
         .carrito__vaciar{
             width: 45%;
-            padding: 1.5rem;
+            padding: 24px;
         }
     
 
@@ -2379,26 +2385,26 @@ body {
 
         .producto__content{
             width: 50%;
-            gap: 3rem;
+            gap: 48px;
         }
         .producto__h1{
-            font-size: 3rem;
+            font-size: 48px;
         }
 
         .producto__span{
-            font-size: 2.5rem;
+            font-size: 40px;
         }
 
         .producto__h3{
-            font-size: 2.5rem;
+            font-size: 40px;
         }
         .producto__ul{
-            padding: 2rem;
+            padding: 32px;
         }
 
         .producto__button{
             width: 50%;
-            padding: 1.5rem;
+            padding: 24px;
         }
 
 
@@ -2407,7 +2413,7 @@ body {
         /* Confirmacion */
 
         .confirmacion__h1{
-            font-size: 4rem;
+            font-size: 64px;
         }
 
         .confirmacion__info{
@@ -2416,11 +2422,11 @@ body {
 
         .confirmacion__p{
             width: 60%;
-            font-size: 2rem;
+            font-size: 32px;
         }
 
         .confirmacion__texto{
-            gap: 3rem;
+            gap: 48px;
         }
 
         .confirmacion__photo{
@@ -2429,37 +2435,37 @@ body {
 
         .confirmacion__contenedor{
             width: 70%;
-            padding: 2rem;
+            padding: 32px;
         }
 
         .confirmacion__producto{
-            font-size: 2.5rem;
-            padding: 1.5rem;
+            font-size: 40px;
+            padding: 24px;
         }
 
 
         .confirmacion__span{
-            font-size: 2.5rem;
-            padding: 1rem;
+            font-size: 40px;
+            padding: 16px;
         }
 
         .confirmacion__span--total {
-            font-size: 2.5rem;
-            padding: 1rem;
+            font-size: 40px;
+            padding: 16px;
         }
 
         .confirmacion__button {
             width: 60%;
-            padding: 1.5rem;
+            padding: 24px;
         }
     
 
         /* SobreMi */
         .conocenos__h1 {
-            font-size: 3.5rem;
+            font-size: 56px;
         }
         .conocenos__contenido{
-            gap: 3rem;
+            gap: 48px;
         }
 
         .conocenos__photo{
@@ -2469,7 +2475,7 @@ body {
         .conocenos__texto{
             width: 40%;
             padding: 300px;
-            font-size: 2.5rem;
+            font-size: 40px;
         }
     
 
@@ -2478,11 +2484,11 @@ body {
 
         .pago__form {
             width: 60%;
-            padding: 2rem;
+            padding: 32px;
         }
 
         .pago__h1 {
-            font-size: 3.5rem;
+            font-size: 56px;
         }
 
 
@@ -2492,13 +2498,13 @@ body {
 
 
         .pago__h3 {
-            font-size: 2rem;
+            font-size: 32px;
         }
 
 
         .pago__boton {
             width: 40%;
-            padding: 1.5rem;
+            padding: 24px;
         }
     
 
@@ -2506,17 +2512,17 @@ body {
         /* TyC */
 
         .tyc__h1 {
-            font-size: 3.5rem;
+            font-size: 56px;
         }
 
         .tyc__caja {
             width: 70%;
-            padding: 2rem;
+            padding: 32px;
         }
 
         .tyc__button {
             width: 50%;
-            padding: 1.5rem;
+            padding: 24px;
         }
     }
 
