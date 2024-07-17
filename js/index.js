@@ -14,7 +14,8 @@ const headerPrincipal = document.querySelector(".header__principal");
 const imagenes = [
     "url(./imgs/photos/bg_imgs/foto_jardin.jpg)",
     "url(./imgs/photos/bg_imgs/foto_invernadero.jpg)",
-    "url(./imgs/photos/bg_imgs/foto_regaderas.jpg)"
+    "url(./imgs/photos/bg_imgs/foto_regaderas.jpg)",
+    "url(./imgs/photos/bg_imgs/fondo_carrito.webp)"
 ];
 const cajaPresentacion = document.querySelector(".presentacion");
 
@@ -43,6 +44,7 @@ let comentariosIndex = 0;
 //Esta función hace que cambie el fondo segun la lista de imágenes de creada arriba y en concreto según elemento indicado por el índice el fotosIndex hará que aumente el índice en 1 y que cuand acabe vuelva al 0
     function cambiarFondo(){
     cajaPresentacion.style.backgroundImage = imagenes[fondosIndex];
+    cajaPresentacion.style.transition = "background-image 1.5s ease-in-out"; 
     fondosIndex = (fondosIndex + 1) % imagenes.length; 
 }
 
