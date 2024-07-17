@@ -10,7 +10,7 @@ const nav = document.querySelector(".nav");
 const headerPrincipal = document.querySelector(".header__principal");
 
 //Constantes para seleccionar el formulario
-const formulario = document.querySelector("pago__form");
+const formulario = document.querySelector(".pago__form");
 
 //2. Ejecutamos funciones
 
