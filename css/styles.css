@@ -1505,7 +1505,7 @@ body {
 
         /*Index*/
 
-        .main__index{
+        .main--index{
 
             gap: 32px;
             margin: 0;
@@ -1520,6 +1520,7 @@ body {
             padding: 32px 0;
         }
 
+        /*Le he cambiado el color al texto de la presentación porque se ve mejor en dispositivos pequeños*/
 
         .presentacion__texto {
             color: var(--green-color);
