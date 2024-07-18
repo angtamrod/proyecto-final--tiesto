@@ -1580,6 +1580,10 @@ body {
 
         }
 
+        .comentarios__h3{
+            font-size: 40px;
+        }
+
 
         .comentarios__contenedor {
 
@@ -1599,6 +1603,10 @@ body {
 
             text-align: center;
 
+        }
+
+        .exitos__h3{
+            font-size: 40px;
         }
 
         .exitos__contenedor {
@@ -1623,7 +1631,7 @@ body {
 
        }
         .catalogo__h1{
-            font-size: 40px;
+            font-size: 35px;
         }
 
         .catalogo__p{
@@ -1647,7 +1655,9 @@ body {
 
        /* Carrito */
 
-       
+       .carrito__h1{
+        font-size: 50px;
+       }
        .carrito__container{
 
             width: 90%; 
@@ -1745,7 +1755,7 @@ body {
 
         
         .confirmacion__h1{
-            font-size: 40px;
+            font-size: 38px;
             text-align: center;
         }
     
