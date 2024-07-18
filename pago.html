@@ -299,26 +299,26 @@
                 <input class="pago__input" id="direccion" type="text" name="direccion" required>
                 
                 <label class="pago__label" for="codigo_postal">Código postal:</label>
-                <input class="pago__input" type="number" name="codigo_postal"
+                <input id="codigo_postal" class="pago__input" type="number" name="codigo_postal"
                 required>
 
             </div>
             <div class="pago__div">
                 <h3 class="pago__h3">Datos de pago:</h3>
                 <label class="pago__label" for="tarjeta">Numero de tarjeta:</label>
-                <input class="pago__input" type="text" name="tarjeta"
+                <input id="tarjeta" class="pago__input" type="text" name="tarjeta"
                 placeholder="1234 5678 9012 3456" required maxlength="16">
 
                 <label class="pago__label" for="caducidad">Fecha de vencimiento:</label>
-                <input class="pago__input" type="text" name="caducidad" placeholder="MM/AA" required>
+                <input id="caducidad" class="pago__input" type="text" name="caducidad" placeholder="MM/AA" required>
 
                 <label class="pago__label" for="cvv">Código de seguridad (CVV):</label>
-                <input class="pago__input" type="text" name="cvv" placeholder="123" required>
+                <input id="cvv" class="pago__input" type="text" name="cvv" placeholder="123" required>
             </div>
 
             <div class="pago__tyc">
                 <label class="pago__label" for="tyc"></label>
-                <input class="tyc" type="checkbox" name="términos" required>
+                <input id="tyc" class="tyc" type="checkbox" name="términos" required>
                 <a class="pago__a pago__a--tyc" href="t&c.html">Acepto los términos y condiciones</a>
             </div>
     
