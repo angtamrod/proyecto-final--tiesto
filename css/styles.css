@@ -241,7 +241,7 @@ body {
 }
 
 .footer__a:hover {
-    color: var(--brown-color-dark);
+    color: var(--golden-letras);
 }
 
 .rrss {
@@ -257,7 +257,7 @@ body {
 }
 
 .rrss__icon:hover {
-    color: var(--brown-color-dark);
+    color: var(--golden-letras);
 }
 
 .footer__p {
