@@ -12,9 +12,9 @@ const headerPrincipal = document.querySelector(".header__principal");
 
 //Constantes para hacer que las imágenes de inicio se cambien solas
 const imagenes = [
-    "url(./imgs/photos/bg_imgs/foto_jardin.jpg)",
-    "url(./imgs/photos/bg_imgs/foto_invernadero.jpg)",
-    "url(./imgs/photos/bg_imgs/foto_regaderas.jpg)",
+    "url(./imgs/photos/bg_imgs/foto_jardin.webp)",
+    "url(./imgs/photos/bg_imgs/foto_invernadero.webp)",
+    "url(./imgs/photos/bg_imgs/foto_regaderas.webp)",
     "url(./imgs/photos/bg_imgs/fondo_carrito.webp)"
 ];
 const cajaPresentacion = document.querySelector(".presentacion");
@@ -41,9 +41,16 @@ let comentariosIndex = 0;
 // 2. DECLARAMOS FUNCIONES
 
 
-//Esta función hace que cambie el fondo segun la lista de imágenes de creada arriba y en concreto según elemento indicado por el índice el fotosIndex hará que aumente el índice en 1 y que cuand acabe vuelva al 0
-    function cambiarFondo(){
+/*Esta función hace que cambie el fondo de cajaPresentación segun la lista de imágenes de creada arriba  y en concreto según elemento indicado por el índice el fotosIndex hará que aumente el índice en 1 y que cuando acabe vuelva al 0.
+    - Cambiará la imagen de fondor
+    - Configurará el tamaño de la imagen de fondo
+    - Configurará la posición de la imagen de fonfo
+    - Y ejecutará una transición
+*/
+function cambiarFondo(){
     cajaPresentacion.style.backgroundImage = imagenes[fondosIndex];
+    cajaPresentacion.style.backgroundSize = "cover";
+    cajaPresentacion.style.backgroundPosition = "center";
     cajaPresentacion.style.transition = "background-image 1.5s ease-in-out"; 
     fondosIndex = (fondosIndex + 1) % imagenes.length; 
 }
