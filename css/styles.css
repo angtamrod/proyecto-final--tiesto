@@ -1851,7 +1851,8 @@ body {
     
         .pago__h1{
 
-            font-size: 40px;
+            font-size: 30px;
+            padding: 15px 0;
         }
     
         .pago__div{
