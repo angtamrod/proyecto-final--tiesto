@@ -72,7 +72,7 @@ function cambiarFondo(){
         listaComentarios[comentariosIndex].style.display = "block";
     }
     
-    // La función imagenAnterior hace lo mismo que la anterior pero a la inversa reduce el index de la lista de comentarios , y especifica que si es menor que 0 vuelva la final
+    // La función imagenAnterior hace lo mismo que la anterior pero a la inversa reduce el index de la lista de comentarios(listaComentarios) , y especifica que si es menor que 0 vuelva la final
     function imagenAnterior() {
         listaComentarios[comentariosIndex].style.display = "none";
         comentariosIndex--;
@@ -82,7 +82,7 @@ function cambiarFondo(){
         listaComentarios[comentariosIndex].style.display = "block";
     }
     
-    /**Hace que se actualice el estado del slider haciendo un forEach para la cual se establecen dos parametros
+    /**Hace que se actualice el estado del slider haciendo un forEach para la lista de imágenes (listaComentarios) cual se establecen dos parametros
      * param(img,index)
      * si el index de esta lista decomentarios es igual que el imgIndex extablecido con anterioridad la img estará en display:block
      * si por el contrario no la img estará en display none

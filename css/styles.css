@@ -378,7 +378,7 @@ body {
     font-size: 4rem;
     color: var(--green-color);
     padding: 2.5rem;
-    text-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
+    
 }
 
 
@@ -455,7 +455,6 @@ body {
     font-size: 4rem;
     color: var(--green-color);
     padding: 2.5rem;
-    text-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
 }
 
 .exitos__contenedor{
@@ -560,7 +559,6 @@ body {
     font-size: 4rem;
     color: var(--green-color);
     padding: 2.5rem;
-    text-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
  
 }
 
@@ -706,7 +704,6 @@ body {
     font-style: normal;
     color: var(--green-color);
     padding: 0.5rem;
-    text-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
 }
 .carrito__container{
     width: 50%;
@@ -855,7 +852,7 @@ body {
     font-style: normal;
     color: var(--green-color);
     padding: 3rem;
-    text-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
+   
 }
 
 .conocenos__contenido{
@@ -946,7 +943,7 @@ body {
     font-style: normal;
     color: var(--golden-letras);
     padding: 0.5rem;
-    text-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
+    
 }
 
 .pago__div{
@@ -1053,7 +1050,6 @@ body {
     font-style: normal;
     color: var(--green-color);
     padding: 0.5rem;
-    text-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
 }
 
 
@@ -1185,7 +1181,7 @@ body {
 }
 
 .producto{
-    width: 90%;
+    width: 70%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -1200,7 +1196,7 @@ body {
 }
 
 .producto__photo{
-    width: 50%;
+    width: 60%;
     border-radius: 2%;
     align-self: flex-start;
     height: auto;
@@ -1390,6 +1386,8 @@ body {
 /* ---------------------------------------------------------------
                     Media Queries 
 ---------------------------------------------------------------  */
+
+/* Para mejorar mis media queries me he apoyado en diversas ocasiones en la IA para corregir fallos que no sabía corregir por mi misma */
 
 @media (max-width: 768px) {
 
@@ -2252,342 +2250,4 @@ body {
     }
     
 
-    /* @media (min-width: 2500px) {
-        
-        body{
-            font-size: 19.2px;
-        }
     
-    Header 
-        .header__principal{
-            gap: 240px;
-        }
-
-        .header__img{
-            min-width: 300px;
-            max-width: 400px;
-        }
-
-        .header__icon{
-            min-width: 60px;
-            max-width: 90px;
-        }
-
-        .nav__a{
-            font-size: 27px;
-            padding: 20px;
-        }
-        .footer{
-            width: 100%;
-            height: 100%;
-           
-        }
-        .footer__main{
-            width: 100%;
-            height: 100%;
-            justify-content: space-between;
-            
-
-        }
-
-        .footer__h3{
-            font-size:  32px;
-        }
-
-        .footer__icon{
-            width: 20%;
-        }
-        .footer__enlaces{
-            width: 20%;
-
-        }
-       
-        Index
-     
-        .presentacion{
-            width: 100%;
-            background-position: center;
-            background-repeat: repeat;
-            background-size: cover;
-
-        }
-
-            .scroll{
-                width: 100px;
-
-                font-size: 30px;
-
-            }
-
-
-        .presentacion__texto{
-
-            font-size: 112px;
-            padding: 56px;
-        }
-    
-        .informacion__caja{
-            width: 30%;
-        }
-        .informacion__p{
-            font-size: 24px;
-            text-align: justify;
-        }
-    
-    
-        .comentarios__contenedor{
-            width: 60%;
-        }
-
-        .comentarios__boton{
-            padding: 48px;
-        }
-
-        .comentarios__boton--anterior{
-            left: 200px;
-            font-size: 50px;
-        }
-        .comentarios__boton--siguiente{
-            font-size: 50px;
-            right: 200px;
-        }
-    
-
-        .exitos__h3{
-            font-size: 80px;
-        }
-        .exitos__contenedor{
-            gap: 64px;
-        }
-        .tarjeta{
-            width: 30%;
-        }
-    
-  
-        .catalogo__h1{
-            font-size: 72px;
-        }
-
-        .catalogo__p{
-            width: 70%;
-            font-size: 32px;
-        }
-
-        .catalogo__content{
-            grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-            gap: 32px;
-            padding: 20px;
-        }
-        .card{
-            width: 80%;
-        }
-
-  
-
-        .carrito__container{
-            width: 60%;
-        }
-
-        .carrito__div{
-            padding: 48px;
-        }
-
-        .carrito__producto{
-            font-size: 40px;
-        }
-
-        .carrito__botones{
-            gap: 64px;
-        }
-
-        .carrito__finalizar{
-            width: 45%;
-            padding: 24px;
-
-        }
-        .carrito__vaciar{
-            width: 45%;
-            padding: 24px;
-        }
-    
-
-
-
-       
-
-        .main--producto{
-            padding: 150px;
-        }
-        .producto{
-            width: 85%;
-            flex-direction:row;
-            border-radius: 80px;
-            padding: 40px;
-            
-        }
-
-        .producto__photo{
-            width: 60%;
-            margin: 40px;
-           }
-            
-        
-        .producto__div{
-           gap: 80px;
-            width: 100%;
-        }
-        .producto__content{
-            width: 55%;
-            height: 60%;
-            
-        }
-        .producto__h1{
-            font-size: 120px;
-        }
-
-        .producto__span{
-            font-size: 100px;
-            padding: 60px;
-        }
-
-        .producto__ul{
-            padding: 32px;
-        }
-
-        .producto__button{
-            width: 100%;
-            border-radius: 40px;
-            padding:50px;
-            font-size: 60px;
-        }
-
-        .producto__h3{
-            align-self: flex-end;
-            font-size: 110px;
-            margin: 50px;
-        }
-        .producto__texto{
-            font-size: 100px;
-            padding: 40px;
-            border-radius: 40px;
-        }
-
-
-    
-   
-
-        .confirmacion__h1{
-            font-size: 64px;
-        }
-
-        .confirmacion__info{
-            width: 80%;
-        }
-
-        .confirmacion__p{
-            width: 60%;
-            font-size: 32px;
-        }
-
-        .confirmacion__texto{
-            gap: 48px;
-        }
-
-        .confirmacion__photo{
-            width: 25%;
-        }
-
-        .confirmacion__contenedor{
-            width: 70%;
-            padding: 32px;
-        }
-
-        .confirmacion__producto{
-            font-size: 40px;
-            padding: 24px;
-        }
-
-
-        .confirmacion__span{
-            font-size: 40px;
-            padding: 16px;
-        }
-
-        .confirmacion__span--total {
-            font-size: 40px;
-            padding: 16px;
-        }
-
-        .confirmacion__button {
-            width: 60%;
-            padding: 24px;
-        }
-    
-
- 
-        .conocenos__h1 {
-            font-size: 56px;
-        }
-        .conocenos__contenido{
-            gap: 48px;
-        }
-
-        .conocenos__photo{
-            width: 40%;
-        }
-
-        .conocenos__texto{
-            width:50%;
-            padding: 30px;
-            font-size: 20px;
-        }
-    
-
-
-     
-
-        .pago__form {
-            width: 60%;
-            padding: 32px;
-        }
-
-        .pago__h1 {
-            font-size: 56px;
-        }
-
-
-        .pago__div {
-            width: 70%;
-        }
-
-
-        .pago__h3 {
-            font-size: 32px;
-        }
-
-
-        .pago__boton {
-            width: 40%;
-            padding: 24px;
-        }
-    
-
-
-
-        .tyc__h1 {
-            font-size: 56px;
-        }
-
-        .tyc__caja {
-            width: 70%;
-            padding: 32px;
-        }
-
-        .tyc__button {
-            width: 50%;
-            padding: 24px;
-        }
-
-    }
-
-    */

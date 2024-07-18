@@ -17,7 +17,6 @@ const plantas = document.querySelectorAll(".card");
 /* 1 addEventListeners para módulo SCROLL
 
 Este tipo de términos los desconocía por ello he recurrido a la IA para ayudarme a inplantar esta funcionalidad
-
 Esta funcion o addEventListener sirve para reconocer cuando deja de verse el header para mostrar en su lugar un botón que invocará el evento scroll para que una vez hayamos bajado lo suficiente como para poder dejar de visualizar el .header nos muestre un botón al cuál despué le daremos otra funcionalidad. En este caso he seleccionado la posición del header(.posicionHeader) .offsetHeight (para indicar cuando el header se ha dejado de mostrar) esto compara la posición del header (.posicionHeader) con el scroll y de la ventana (window.scrollY), si este es mayor que la posicionHeader, el display del (.botonScroll) cambiará a block para que sea visible
 */
 window.addEventListener(`scroll`, () => {
@@ -48,7 +47,7 @@ menu.addEventListener(`click`, () => {
     }
 });
 
-/* 1. FOREACH PARA AÑADIR COSAS AL CARRITO
+/* 1. FOREACH PARA AÑADIR PRODUCTOS AL CARRITO
  Al haber hecho un querySelectorAll hemos generado una lista y para poder ejecutar una función por cada item de esa lista hemos hecho un forEach. Donde estámos asígnando que dentro de ese item planta, seleccionemos el botón (.card__button) y le hagamos un addEventListener de click.
 
  Cuando hagamos click guardará los atributos guardados en data-id/data-name/data-price/data-img-
