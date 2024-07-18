@@ -16,7 +16,7 @@ Tiesto es una tienda en línea dedicada a la venta de plantas, enfocada en propo
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Características](#características)
-- [Contribuciones](#contribuciones)
+
 
 ## Instalación
 Para ejecutar este proyecto localmente, sigue estos pasos:
