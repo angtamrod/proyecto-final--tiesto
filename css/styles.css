@@ -1581,7 +1581,7 @@ body {
         }
 
         .comentarios__h3{
-            font-size: 40px;
+            font-size: 45px;
             padding: 7px;
         }
 
@@ -1609,7 +1609,7 @@ body {
         }
 
         .exitos__h3{
-            font-size: 35px;
+            font-size: 30px;
             padding: 7px;
         }
 
@@ -1763,7 +1763,7 @@ body {
         
         .confirmacion__h1{
             font-size: 30px;
-            padding: 7px;
+            padding: 4px;
             text-align: center;
         }
     
@@ -1816,7 +1816,7 @@ body {
         }
     
         .conocenos__h1{
-            font-size: 40px;
+            font-size: 30px;
             padding: 7px;
             text-align: center;
         }
