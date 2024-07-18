@@ -82,7 +82,7 @@ window.addEventListener("scroll", () => {
         botonScroll.style.display = "none";
     }
 });
-//Esto hace que cuando pulsemos el botón de scroll redirija al usuario a la parte de arriba del todo de la páfina donde se muestra el header
+//Este addEventListener hace que cuando pulsemos el botón de scroll redirija al usuario a la parte de arriba del todo de la páfina donde se muestra el header
 botonScroll.addEventListener("click", () => {
     window.scrollTo({
         top:0,

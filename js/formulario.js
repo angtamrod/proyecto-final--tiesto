@@ -43,7 +43,7 @@ menu.addEventListener("click", () => {
 });
 
 /* 3. Esta función maneja el evento de de hacer submit en un formulario, y evita con el event.preventDefault que el formulario se envíe y la página se recargue
-finalmente con el window.location.href nos redirige a al documento confirmación.html para que nos redirija a la confirmación de pago
+finalmente con el window.location.href nos redirige a al documento confirmación.html para que nos redirija a la confirmación de pago.
 */
 if(formulario){
 formulario.addEventListener("submit", (event) => {
