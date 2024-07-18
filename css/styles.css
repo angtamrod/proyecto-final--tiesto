@@ -1582,6 +1582,7 @@ body {
 
         .comentarios__h3{
             font-size: 40px;
+            padding: 7px;
         }
 
 
@@ -1595,6 +1596,8 @@ body {
         .comentarios__boton {
 
             padding: 16px;
+
+            top:50%;
         
             
         }
@@ -1606,7 +1609,8 @@ body {
         }
 
         .exitos__h3{
-            font-size: 40px;
+            font-size: 35px;
+            padding: 7px;
         }
 
         .exitos__contenedor {
@@ -1618,7 +1622,7 @@ body {
 
         .tarjeta {
 
-            width: 80%;
+            width: 75%;
             
 
         }
@@ -1632,6 +1636,7 @@ body {
        }
         .catalogo__h1{
             font-size: 35px;
+            padding: 7px;
         }
 
         .catalogo__p{
@@ -1656,7 +1661,8 @@ body {
        /* Carrito */
 
        .carrito__h1{
-        font-size: 50px;
+        font-size: 40px;
+            padding: 7px;
        }
        .carrito__container{
 
@@ -1727,6 +1733,7 @@ body {
 
         .producto__h1{
             font-size: 32px; 
+            padding: 7px;
         }
 
 
@@ -1755,7 +1762,8 @@ body {
 
         
         .confirmacion__h1{
-            font-size: 38px;
+            font-size: 30px;
+            padding: 7px;
             text-align: center;
         }
     
@@ -1809,6 +1817,7 @@ body {
     
         .conocenos__h1{
             font-size: 40px;
+            padding: 7px;
             text-align: center;
         }
     
