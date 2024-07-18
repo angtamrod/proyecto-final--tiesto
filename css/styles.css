@@ -1196,10 +1196,10 @@ body {
 }
 
 .producto__photo{
-    width: 60%;
+    width: 50%;
     border-radius: 2%;
     align-self: flex-start;
-    height: auto;
+    height: 100%;
     border: 2px solid var(--brown-color);
     box-shadow:  13px 14px 25px -1px rgba(107,107,107,0.69);
 }
@@ -1212,23 +1212,21 @@ body {
 
 .producto__content{
     display: flex;
-    width: 50%;
-    
-    height: 100%;
+    width: 80%;
+    height: auto;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     color: var(--brown-color-dark);
-    padding: 0;
+    
+    
     
 }
 .producto__info{
     display: flex;
-    justify-self: flex-start;
     flex-wrap: wrap;
-   
     width: 90%;
     flex-direction: column;
     justify-content: center;
@@ -1246,11 +1244,13 @@ body {
 }
 .producto__h1{
     font-size: 2.5em;
+   
+    
 }
 .producto__span{
     font-size: 2rem;
     background-color: var(--brown-color);
-    color: whitesmoke;
+    color: var(--background-color);
     padding: 10px;
     border-radius: 50%;
     box-shadow: 13px 14px 25px -1px rgba(107,107,107,0.69);
@@ -1274,7 +1274,7 @@ body {
 .producto__h3{
     font-size: 2em;
     width: 20%;
-    color: whitesmoke;
+    color: var(--background-color);
 }
 
 .producto__ul{
@@ -1289,7 +1289,7 @@ body {
     
 }
 .producto__li{
-    color: whitesmoke;
+    color: var(--background-color);
     text-align: justify;
     
 }
@@ -1297,11 +1297,11 @@ body {
     margin:0 0 0.125rem 0;
 }
 .producto__botones{
-    width: 100%;
+    width: 80%;
     height: auto;
     padding: 0.625rem 0;
     display: flex;
-    align-self: flex-end;
+    align-self: center;
     flex-wrap: wrap;
     gap: 0.625rem;
     flex-direction: row;
