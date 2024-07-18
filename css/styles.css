@@ -2221,7 +2221,7 @@ font-size: 1.5rem;
     }
     
 
-    @media (min-width: 2600px) {
+    @media (min-width: 2500px) {
         
         body{
             font-size: 19.2px;
