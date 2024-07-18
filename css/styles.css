@@ -197,8 +197,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
+    width: 95%;
+    max-width: 100%;
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -227,7 +227,7 @@ body {
 }
 
 .footer__h3 {
-font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .footer__li {
@@ -357,6 +357,7 @@ font-size: 1.5rem;
     width: 80%;
     font-size: 1rem;
     text-align: justify;
+    font-weight: bold;
 }
 
 .comentarios{
@@ -1194,7 +1195,7 @@ font-size: 1.5rem;
 }
 
 .producto__photo{
-    width: 60%;
+    width: 50%;
     border-radius: 2%;
     align-self: flex-start;
     height: auto;
@@ -1210,7 +1211,7 @@ font-size: 1.5rem;
 
 .producto__content{
     display: flex;
-    width: 40%;
+    width: 50%;
     
     height: 100%;
     flex-wrap: wrap;
@@ -1226,9 +1227,8 @@ font-size: 1.5rem;
     display: flex;
     justify-self: flex-start;
     flex-wrap: wrap;
-    
-    width: 80%;
-    height: 30%;
+   
+    width: 90%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
