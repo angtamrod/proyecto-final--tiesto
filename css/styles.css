@@ -1573,7 +1573,7 @@ body {
         }
     
         .comentarios {
-
+            padding: 35px;
             flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
@@ -1581,7 +1581,7 @@ body {
         }
 
         .comentarios__h3{
-            font-size: 45px;
+            font-size: 30px;
             padding: 7px;
         }
 
