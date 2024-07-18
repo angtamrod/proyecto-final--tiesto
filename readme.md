@@ -82,7 +82,8 @@ tiesto/
 
 ## Características
 
-El código está debidamente comentado sobre todo en los archivos js utilizados para una mejor comprensión del código
+El código está debidamente comentado sobre todo en los archivos js utilizados para una mejor comprensión:
+- **Metodología BEM**: He implementado la metodología bem para tener una menor especificidad en el código
 - **Cambio Automático de Imágenes**: Las imágenes de la sección de presentación cambian automáticamente cada 4 segundos.
 - **Reseñas de Clientes**: Slider interactivo para mostrar comentarios de clientes.
 - **Responsive Design**: Adaptación a diferentes tamaños de pantalla para una experiencia de usuario óptima.
