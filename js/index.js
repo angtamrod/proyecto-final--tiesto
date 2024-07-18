@@ -83,7 +83,7 @@ let comentariosIndex = 0;
 
     function actualizarslider() {
         listaComentarios.forEach((img, index) => {
-            img.style.display = index === imgIndex ? "block" : "none";
+            img.style.display = index === fondosIndex ? "block" : "none";
         });
     }
 
