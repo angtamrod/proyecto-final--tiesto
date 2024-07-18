@@ -2221,7 +2221,7 @@ font-size: 1.5rem;
     }
     
 
-    @media (min-width: 1920px) {
+    @media (min-width: 2600px) {
         
         body{
             font-size: 19.2px;
@@ -2233,17 +2233,17 @@ font-size: 1.5rem;
         }
 
         .header__img{
-            min-width: 400px;
-            max-width:500px;
+            min-width: 300px;
+            max-width: 400px;
         }
 
         .header__icon{
-            min-width: 100px;
-            max-width: 150px;
+            min-width: 60px;
+            max-width: 90px;
         }
 
         .nav__a{
-            font-size: 40px;
+            font-size: 27px;
             padding: 20px;
         }
         .footer{
@@ -2271,27 +2271,30 @@ font-size: 1.5rem;
 
         }
        
-    
-        /* Presentacion */
-
+        /*Index*/
+     
         .presentacion{
-            width: 200%;
+            width: 100%;
             background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
+            background-repeat: repeat;
+            background-size: cover;
 
         }
 
             .scroll{
-                width: 55px;
+                width: 100px;
+
+                font-size: 30px;
+
             }
+
+
         .presentacion__texto{
 
             font-size: 112px;
             padding: 56px;
         }
     
-        /* Informacion */
         .informacion__caja{
             width: 30%;
         }
@@ -2300,7 +2303,7 @@ font-size: 1.5rem;
             text-align: justify;
         }
     
-        /* Comentarios */
+    
         .comentarios__contenedor{
             width: 60%;
         }
@@ -2310,13 +2313,15 @@ font-size: 1.5rem;
         }
 
         .comentarios__boton--anterior{
-            left: 300px;
+            left: 200px;
+            font-size: 50px;
         }
         .comentarios__boton--siguiente{
-            right: 300px;
+            font-size: 50px;
+            right: 200px;
         }
     
-        /* Exitos */
+
         .exitos__h3{
             font-size: 80px;
         }
@@ -2327,7 +2332,7 @@ font-size: 1.5rem;
             width: 30%;
         }
     
-        /* Catalogo */
+  
         .catalogo__h1{
             font-size: 72px;
         }
@@ -2346,8 +2351,7 @@ font-size: 1.5rem;
             width: 80%;
         }
 
-    
-        /* Carrito */
+  
 
         .carrito__container{
             width: 60%;
@@ -2378,7 +2382,7 @@ font-size: 1.5rem;
 
 
 
-        /* Producto */
+       
 
         .main--producto{
             padding: 150px;
@@ -2439,7 +2443,7 @@ font-size: 1.5rem;
 
 
     
-        /* Confirmacion */
+   
 
         .confirmacion__h1{
             font-size: 64px;
@@ -2489,7 +2493,7 @@ font-size: 1.5rem;
         }
     
 
-        /* SobreMi */
+ 
         .conocenos__h1 {
             font-size: 56px;
         }
@@ -2509,7 +2513,7 @@ font-size: 1.5rem;
     
 
 
-        /* Pago */
+     
 
         .pago__form {
             width: 60%;
@@ -2538,7 +2542,6 @@ font-size: 1.5rem;
     
 
 
-        /* TyC */
 
         .tyc__h1 {
             font-size: 56px;
