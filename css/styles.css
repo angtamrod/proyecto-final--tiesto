@@ -2221,13 +2221,13 @@ font-size: 1.5rem;
     }
     
 
-    @media (min-width: 2500px) {
+    /* @media (min-width: 2500px) {
         
         body{
             font-size: 19.2px;
         }
     
-        /* Header */
+    Header 
         .header__principal{
             gap: 240px;
         }
@@ -2271,7 +2271,7 @@ font-size: 1.5rem;
 
         }
        
-        /*Index*/
+        Index
      
         .presentacion{
             width: 100%;
@@ -2559,4 +2559,4 @@ font-size: 1.5rem;
 
     }
 
-   
+    */
