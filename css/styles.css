@@ -626,7 +626,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    border: 0px 2px 2px 2px solid var(--brown-color);
+    border: 2px solid var(--brown-color);
     
     
 }
